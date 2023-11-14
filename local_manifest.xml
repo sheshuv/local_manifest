@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+<remote name="hub"
+        fetch="https://github.com" />
+<remote name="dev"
+        fetch="https://github.com/sm4450-development" />
+<remote name="clang"  
+        fetch="https://gitlab.com/ImSurajxD"/>
+<remote name="sheshuv"
+         fetch="https://github.com/sheshuv" />
+<remote name="lineage"
+         fetch="https://github.com/LineageOS" />
+        
+  <!-- Device Trees -->
+  <project path="device/xiaomi/sky" name="device_xiaomi_sky.git" remote="sheshuv" revision="pos" clone-depth="1" />
+  
+  <!-- Kernel Trees-->
+  <project path="kernel/xiaomi/sky-kernel" name="device_xiaomi_sky-kernel.git" remote="dev" revision="lineage-20.0" clone-depth="1" />
+  
+  <!-- Vendor Trees -->
+  <project path="vendor/xiaomi/sky" name="miju12/vendor_xiaomi_sky.git" remote="hub" revision="lineage-20.0" clone-depth="1" />
+
+  <remove-project name="vendor_aosp" />    
+  
+  <project path="vendor/aosp" name="vendor_aosp.git" remote="sheshuv" revision="pos" clone-depth="1"  />
+
+  </manifest>
