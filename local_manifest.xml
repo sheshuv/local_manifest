@@ -24,6 +24,6 @@
 
   <remove-project name="vendor_aosp" />    
   
-  <project path="vendor/aosp" name="vendor_aosp.git" remote="sheshuv" revision="pos" clone-depth="1"  />
+  <project path="vendor/aosp" name="vendor_aosp.git" remote="sheshuv" revision="thirteen" clone-depth="1"  />
 
   </manifest>
