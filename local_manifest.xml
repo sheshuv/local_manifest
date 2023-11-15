@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+vendor/extra/ih8sn<?xml version="1.0" encoding="UTF-8"?>
 
 <manifest>
 
@@ -23,7 +23,10 @@
   <project path="vendor/xiaomi/sky" name="miju12/vendor_xiaomi_sky.git" remote="hub" revision="lineage-20.0" clone-depth="1" />
 
   <remove-project name="vendor_aosp" />    
-  
+
+  <!-- pixel props-->
+  <project path="vendor/extra/ih8sn" name="ItsVixano/ih8sn" remote="hub" clone-depth="1" />
+
   <project path="vendor/aosp" name="vendor_aosp.git" remote="sheshuv" revision="thirteen" clone-depth="1"  />
 
   </manifest>
